@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Desaku - Desa Rukma Jaya</title>
+
+        <style>
+            header.masterhead {
+            text-align: center;
+            color: black;
+            background-image: url('img/landing.jpg');
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            //background-position: center center;
+            //@include background-cover;
+            .intro-text {
+                padding-top: 150px;
+                padding-bottom: 100px;
+                .intro-lead-in {
+                font-size: 22px;
+                font-style: italic;
+                line-height: 22px;
+                margin-bottom: 25px;
+                @include serif-font;
+                }
+                .intro-heading {
+                text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; /* Menambahkan outline pada teks */
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 50px;
+                margin-bottom: 25px;
+                @include heading-font;
+                }
+            }
+            }
+            @media(min-width:7px) {
+            header.masterhead {
+                .intro-text {
+                padding-top: 300px;
+                padding-bottom: 200px;
+                .intro-lead-in {
+                    font-size: 40px;
+                    font-style: italic;
+                    line-height: 40px;
+                    margin-bottom: 25px;
+                    @include serif-font;
+                }
+                .intro-heading {
+                    font-size: 75px;
+                    font-weight: 700;
+                    line-height: 75px;
+                    margin-bottom: 50px;
+                    @include heading-font;
+                }
+                }
+            }
+            }
+        </style>
+
+        <style>
+            table {
+                width: 80%;
+                height: 20px;
+                padding: 10px;
+                border-collapse: collapse;
+            }
+
+            th {
+                border: 1px solid black;
+                padding: 8px;
+                background-color: #DEB887;
+            }
+
+            td {
+                border: 1px solid black;
+                padding: 8px;
+            }
+        </style>
+
+        <style>
+        /* Atur tata letak untuk logo dan teks */
+            .logo-with-text {
+                display: flex; /* Gunakan Flexbox untuk mengatur logo dan teks dalam satu baris */
+                align-items: center; /* Posisikan logo dan teks secara vertikal di tengah */
+            }
+
+            .logo {
+                width: 50px; /* Atur lebar logo sesuai kebutuhan */
+                height: auto; /* Sesuaikan tinggi logo agar proporsional */
+                margin-right: 10px; /* Beri jarak antara logo dan teks */
+            }
+        </style>
+    
+        <!-- Favicon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="icon" type="image/png" href="img/logodesa.png"/>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom fonts for this template -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+        <!-- Custom styles for this template -->
+        <link href="css/agency.min.css" rel="stylesheet">
+    </head>
+    
+    <body id="page-top" style="position: "
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <div class="logo-with-text">
+                    <img src="img/logodesa.png" alt="Logo" class="logo">
+                    <a class="navbar-brand js-scroll-trigger" href="#page-top">Desa Rukma Jaya</a>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fa fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">Sejarah</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Profil</a>
+                        </li> 
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#struktur">Struktur Organisasi</a>
+                        </li>           
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#lembaga">Lembaga Desa</a>
+                        </li> 
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#layanan">Layanan</a>
+                        </li>                                   
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Kontak Kami</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="masterhead">
+            <div class="container">
+                <div class="intro-text">
+                    <!--<img src="img/landing.jpg" style="width: 100%; height: auto">-->
+                    <div class="intro-lead-in" style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; /* Menambahkan outline pada teks */">Selamat Datang di Web Profil</div>
+                    <div class="intro-heading text-uppercase">Desa Rukma Jaya</div>
+                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Selengkapnya</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sejarah Desa Rukma Jaya -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Sejarah</h2>
+                        <h3 class="section-subheading text-muted">Desa Rukma Jaya, Kec. Sungai Raya Kepulauan, Kab. Bengkayang</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/sejarah/3.png" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading">1950</h4>
+                                    </div> 
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Desa Rukma Jaya dulunya bernama Desa Sungai Ruk yang diambil dari nama pohon yaitu Pohon Arok yang tumbuh dimuara sungai, dan diresmikan oleh Kepala Desa yang pertama yaitu <b> H. Bujang </b>(1950-1953) dan kemudian dilanjutkan oleh anaknya <b> Suhadi </b>.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/sejarah/4.png" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading">1953 - 1956</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Kepala Desa Suhadi menjabat selama 3 tahun, yang kemudian dilanjutkan oleh Kepala Desa yang baru yaitu <b> Usman </b> setelah adanya penunjukan dan kesepakatan bersama oleh masyarakat.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/sejarah/5.png" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading">1956 - 1960</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Kepala Desa Usman mengundurkan diri setelah 4 tahun berjalan masa kepemimpinannya. Dan ditunjuk kader baru yakni saudara <b> Kadir </b> sebagai Kepala Desa yang baru dan menjabat sampai tahun 1963, setelah itu digantikan oleh saudara <b> Hasan</b>.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/sejarah/6.png" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading">1965 - 1969</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Masa jabatan yang selanjutnya digantikan oleh saudara <b> Djusman </b>. Kemudian di tahun 1969 ditujuklah saudara <b> Abdurrahman Ai</b> untuk melanjutkan pemerintahan desa.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/sejarah/7.png" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading">1988</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Terjadi penggabungan nama antara 2 nama desa menjadi <b>"Rukma Jaya"</b> yaitu desa Sugai Ruk dan Desa Mayanur di tahun 1988. Masa pemerintahan Abdurrahman Ai berakhir di tahun 1998. Yang kemudian dilanjutkan oleh saudara <b> Alhadi</b> selama 2 periode hingga 2013.</p>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/sejarah/8.png" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading">2013 - 2019</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Terjadi kekosongan setelah Alhadi habis masa jabatan, sehinggan ditunjuklah saudara <b>Ardi Firdaus</b> sebagai plt kepala desa selama kurang lebih 6 bulan. Periode Selanjutnya Maka Terpilih Saudara <b>Asnawi </b>pada masa periode 2013-2019.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/sejarah/9.png" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading">2019 - Sekarang</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Di tahun 2019 ditunjuklah saudara <b>Nuryahya</b> sebagai pj kepala desa selama 3 bulan. Lalu diadakan kampanye pemilihan kepala desa, dan pada Desember 2019 terpilih <b>Alhadi</b> sebagai kepala desa dan dilantik pada awal 2020 dengan masa jabatan mulai 2020 - 2026 .</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="timeline-image">
+                            <h4 class="subheading" style="margin-top: 50px">Logo Desa Rukma Jaya</h4>
+                            <img src="img/logodesa.png" alt="" style="width: 20%; height: auto">
+                        </div>
+                        <h4 class="service-heading"  style="margin-bottom: 50px">Makna Logo</h4>
+                    </div>
+                </div>
+                <div class="tabel" style="margin-left: 10%">
+                <table style="width: 90%; height : 20px; paddig: 10px;">
+                    <tr style="text-align: center">
+                        <th style="width: 10%">No.</th>
+                        <th style="width: 30%">Bagian</th>
+                        <th style="width: 50%">Keterangan</th>
+                    </tr> 
+                    <tr>
+                        <td style="text-align: center">1.</td>
+                        <td>Warna Hitam</td>
+                        <td>Keteguhan</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">2.</td>
+                        <td>Warna Kuning</td>
+                        <td>Kedamaian</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">3.</td>
+                        <td>Warna Hijau</td>
+                        <td>Generasi Muda yang memiliki semangat untuk tumbuh kembang Desa</td>
+                    </tr>
+                        <td style="text-align: center">4.</td>
+                        <td>Perisai</td>
+                        <td>Desa yang senantiasa melindungi dan mengayomi masyarakatnya</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">5.</td>
+                        <td>Bintang</td>
+                        <td>Desa Rukma Jaya yang Bertaqwa Kepada Tuhan Yang Maha Esa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">6.</td>
+                        <td>Padi & Kapas</td>
+                        <td>Adil terhadap warga Desa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">7.</td>
+                        <td>Lingkaran dengan perahu nelayan dan kelapa sawit di dalamnya</td>
+                        <td>Kesejahteraan warga Desa atas hasil alam</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">8.</td>
+                        <td>Perahu dan Kelapa Sawit</td>
+                        <td>Mata pencaharian masyarakat Desa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">9.</td>
+                        <td>Pita Merah Putih</td>
+                        <td>Keteguhan</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">10.</td>
+                        <td>Angka 1988</td>
+                        <td>Tahun lahirnya Desa Rukma Jaya</td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profil Desa Rukmka Jaya -->
+        <section class="bg-light" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Profil</h2>
+                        <h3 class="section-subheading text-muted">Desa Rukma Jaya, Kec. Sungai Raya Kepulauan, Kab. Bengkayang</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/profil/wilayah.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Wilayah</h4>
+                            <p class="text-muted">Desa Rukma Jaya</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/profil/land.jpg" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Penggunaan Lahan</h4>
+                            <p class="text-muted">Desa Rukma Jaya</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/profil/visi-misi.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Visi dan Misi</h4>
+                            <p class="text-muted">Desa Rukma Jaya</p>
+                        </div>
+                    </div>    
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/profil/pendidikann.jpg" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Data Pendidikan</h4>
+                            <p class="text-muted">Desa Rukma Jaya</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/profil/kesehatan.jpg" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Data Kesehatan</h4>
+                            <p class="text-muted">Desa Rukma Jaya</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/profil/pekerjaan.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Data Mata Pencaharian</h4>
+                            <p class="text-muted">Desa Rukma Jaya</p>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Struktur Organisasi Desa -->
+        <section id="struktur">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Struktur Organisasi</h2>            
+                </div>
+            </div>
+            <div align="center">
+                <div class="row text-center">
+                    <div class="col-md-12" style="padding: 20px">
+                        <div class="timeline-image">
+                            <img src="img/ds.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Lembaga Desa Rukmka Jaya -->
+        <section class="bg-light" id="lembaga">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Lembaga Desa</h2>
+                        <h3 class="section-subheading text-muted">Desa Rukma Jaya, Kec. Sungai Raya Kepulauan, Kab. Bengkayang</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                            <div class="portfolio-hover">
+                                
+                            </div>
+                            <img class="rounded-circle img-fluid" src="img/lembaga-desa/pkk.png" alt="">
+                        </a>
+                        <div class="portfolio-caption" style="text-align: center;">
+                            <h4>PKK</h4>
+                            <p class="text-muted">Desa Rukma Jaya</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                            <div class="portfolio-hover">
+                                
+                            </div>
+                            <img class="rounded-circle img-fluid" src="img/lembaga-desa/bpd.png" alt="">
+                        </a>
+                        <div class="portfolio-caption" style="text-align: center;">
+                            <h4>BPD</h4>
+                            <p class="text-muted">Desa Rukma Jaya</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                        <div class="portfolio-hover">
+                            
+                        </div>
+                        <img class="rounded-circle img-fluid" src="img/lembaga-desa/lpm.png" alt="">
+                        </a>
+                        <div class="portfolio-caption"style="text-align: center;">
+                            <h4>LPM</h4>
+                            <p class="text-muted">Desa Rukma Jaya</p>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+        </section>
+
+        <!-- Layanan -->
+        <section id="layanan">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Layanan</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="img/lembaga-desa/surat.jpg" alt="" style="width: 200px; height: 200px;">
+                    </div>
+                    <a href="https://forms.gle/GX7Rxi3LsRvSNnag6"><h3 class="section-subheading text-uppercase">Pengajuan Surat</h3></a>
+                    <p class="text-muted">Pendataan Kebutuhan Surat Masyarakat Desa Rukma Jaya</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Kontak -->
+        <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Kontak Kami</h2>
+                    <h3 class="section-subheading text-muted">Silakan menghubungi kami melalui e-mail di bawah ini:</h3>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center">
+                <div id="success">
+                    <a href="mailto:rukmajaya7208@gmail.com"><button><i class="fas fa-envelope"></i>Kirim Email</button></a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Copyright 2023 &copy; KKN KEBANGSAAN XI 2023</span>
+            </div>          
+            <div class="col-md-4">            
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline quicklinks">
+                <li class="list-inline-item">
+                    <a href="">DESA RUKMA JAYA</a>
+                </li>              
+                </ul>
+            </div>
+            </div>
+        </div>
+        </footer>
+
+        <!-- Portfolio Modals -->
+
+        <!-- Modal 1 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Wilayah</h2>
+                                    <p class="item-intro text-muted">Desa Rukma Jaya</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/profil/wilayah-full.png" alt="">
+                                </div>
+                            </div>
+                                        <table style="margin-left: 10%">
+                                            <tr>
+                                                <th>No.</th>
+                                                <th>Uraian</th>
+                                                <th>Keterangan</th>
+                                            </tr> 
+                                            <tr>
+                                                <td>1.</td>
+                                                <td style="text-align: left">Luas Wilayah</td>
+                                                <td style="text-align: left">11.500 Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td style="text-align: left">Jumlah Dusun (3)</td>
+                                                <td style="text-align: left">a. Dusun Guntur<br>b. Dusun Bhakti<br>c. Dusun Pelita</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td style="text-align: left">Batas Wilayah</td>
+                                                <td style="text-align: left">a. Utara : Desa Sungai Keran<br>b. Selatan : Desa Sungai Pangkalan II<br>c. Barat : Laut Natuna<br>d. Timur : Desa Goa Boma</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td style="text-align: left">Tippografi</td>
+                                                <td style="text-align: left">a. Luas Kemiringan Lahan (rata-rata)<br>b. Ketinggian diatas permukaan laut (rata-rata) 14 m</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.</td>
+                                                <td style="text-align: left">Hidrologi</td>
+                                                <td style="text-align: left">Irigasi Berpengairan tehnis</td>
+                                            </tr> 
+                                            <tr>
+                                                <td>6.</td>
+                                                <td style="text-align: left">Klimatologi</td>
+                                                <td style="text-align: left">a. Suhu 27-30 derajat<br>b. Curah hujan 2000/3000 mm<br>c. Kelembaban udara<br>d. Kecepatan angin</td>
+                                            </tr>
+                                            <tr>
+                                                <td>7.</td>
+                                                <td style="text-align: left">Luas Lahan Pertanian</td>
+                                                <td style="text-align: left">a. Sawah teririgasi : 122,180 Ha<br>b. Sawah tadah hujan : 6,280 Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8.</td>
+                                                <td style="text-align: left">Luas Lahan permukiman</td>
+                                                <td style="text-align: left">30,106 Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <td>9.</td>
+                                                <td style="text-align: left">Kawasan rawan bencana</td>
+                                                <td style="text-align: left">a. Banjir : 0 Ha</td>
+                                            </tr>
+                                        </table>
+                                        <div class="col-lg-8 mx-auto">
+                                            <div class="modal-body">
+                                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                                    <i class="fa fa-times"></i>Tutup</button>
+                                            </div>
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">PENGGUNAAN LAHAN</h2>
+                                    <p class="item-intro text-muted">Desa Rukma Jaya</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/profil/land.jpg" alt="">
+                                    <p>Desa Rukma Jaya memiliki bebberapa produk UMKM antara lain:<br></p>
+                                    <table style="width: 100%; height : 20px; padding: 10px">
+                                            <tr>
+                                                <th style="width: 10%">No</th>
+                                                <th style="width: 60%">Jenis Lahan</th>
+                                                <th style="width: 30%">Luas</th>
+                                            </tr> 
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Tanah Sawah</td>
+                                                <td>3 Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Tanah Kering</td>
+                                                <td>0 Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Tanah Basah</td>
+                                                <td>3 Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td>Tanah Perkebunan</td>
+                                                <td>2,5 Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.</td>
+                                                <td>Tanah Fasilitas Umum</td>
+                                                <td>3 Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6.</td>
+                                                <td>Tanah Hutan</td>
+                                                <td>0 Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td><b>Total Luas Tanah</b></td>
+                                                <td>11,5 Ha</td>
+                                            </tr>
+                                    </table>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times"></i>Tutup</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Visi dan Misi</h2>
+                                    <p class="item-intro text-muted">Desa Rukma Jaya</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/profil/visi-misi-full.png" alt="">
+                                    <p class="text-left"><b>VISI :</b>
+                                        <br/>Visi Desa Rukma Jaya adalah "Terwujud nya Masyarakat desa Rukma Jaya Yang sejahtera, Cerdas, Sehat, Beriman, Demokratis Dan Mandiri Dalam Keberagaman"
+                                        <br><br>
+                                        <b>MISI :</b>
+                                        <br>Untuk terwujudnya visi tersebut ditetapkan 5 upaya/cara atau misi yang akan mendukung pencapaian visi yaitu:
+                                        <br/><table style="width: 700px;">
+                                            <tr>
+                                                <td style="width: 50px; border: none;">1.</td>
+                                                <td style="width: 650px; border: none; text-align: left;">Membangun dan meningkatkan infrastuktur dengan tetap menjaga kelestarian lingkungan hidup dan mitigasi bencana.</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 50px; border: none;">2.</td>
+                                                <td style="width: 650px; border: none; text-align: left;">Mempercepat pembangunan ekonomi yang berkeadilan melalui pengembangan sektor unggul.</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 50px; border: none;">3.</td>
+                                                <td style="width: 650px; border: none; text-align: left;">Meningkatkan usaha pertanian.</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 50px; border: none;">4.</td>
+                                                <td style="width: 650px; border: none; text-align: left;">Meningkatkan dan mengelola pendapatan asli desa.</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 50px; border: none;">5.</td>
+                                                <td style="width: 650px; border: none; text-align: left;">Mewujudkan pemerintahan yang baik dan bersih melalui pelaksanaan otonomi daerah.</td>
+                                            </tr>
+                                        </table>
+                                        <!--&emsp;1.&ensp;Membangun dan meningkatkan infrastuktur dengan tetap menjaga kelestarian lingkungan hidup dan mitigasi bencana.
+                                        <br/>&emsp;2.&ensp;Mempercepat pembangunan ekonomi yang berkeadilan melalui pengembangan sektor unggul.
+                                        <br/>&emsp;3.&ensp;Meningkatkan usaha pertanian.
+                                        <br/>&emsp;4.&ensp;Meningkatkan dan mengelola pendapatan asli desa.
+                                        <br/>&emsp;5.&ensp;Mewujudkan pemerintahan yang baik dan bersih melalui pelaksanaan otonomi daerah.-->
+                                    </p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times"></i>
+                                        <br><br>Tutup</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 4 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">DATA PENDIDIKAN</h2>
+                                    <p class="item-intro text-muted">Desa Rukma Jaya</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/profil/pendidikann.jpg" alt="">
+                                    <p>Berikut adalah Daftar Lembaga Pendidikan yang ada di Desa Rukma Jaya<br>Sekolah Dasar (SD):</p>
+                                    <table style="width: 100%; height : 20px; padding: 10px">
+                                            <tr>
+                                                <th style="width: 10%">No</th>
+                                                <th style="width: 60%">Keterangan</th>
+                                                <th style="width: 30%">Jumlah</th>
+                                            </tr> 
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Jumlah Negeri</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Jumlah Swasta</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Jumlah Dimiliki Desa</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td>TOTAL</td>
+                                                <td>6</td>
+                                            </tr>
+                                    </table>
+                                    <br><br>
+                                    <p>Data jumlah pengajar dan jumlah siswa yang ada:<br></p>
+                                    <table style="width: 100%; height : 20px; padding: 10px">
+                                        <tr>
+                                            <th style="width: 50%">Jumlah Pengajar</th>
+                                            <th style="width: 50%">Jumlah Siswa</th>
+                                        </tr>
+                                        <tr>
+                                            <td>36</td>
+                                            <td>650</td>
+                                        </tr>
+                                    </table>
+                                    <br><br>
+                                    <p>Berikut adalah Daftar Tingkat Pendidikan yang ada di Desa Rukma Jaya:<br></p>
+                                    <table style="width: 100%; height : 20px; padding: 10px">
+                                            <tr>
+                                                <th style="width: 10%">No</th>
+                                                <th style="width: 60%">Tingkatan Pendidikan</th>
+                                                <th style="width: 30%">Jumlah</th>
+                                            </tr> 
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Usia 7 - 18 tahun yang sedang sekolah</td>
+                                                <td>430</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Usia 18 - 56 tahun tidak pernah sekolah</td>
+                                                <td>450</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Usia 18 - 56 tahun pernah SD tapi tidak tamat</td>
+                                                <td>250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td>Usia 12 - 56 tahun tidak tamat SLTP</td>
+                                                <td>540</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.</td>
+                                                <td>Usia 18 - 56 tahun tidak tamat SLTA</td>
+                                                <td>530</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6.</td>
+                                                <td>Tamat SLB A</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>7.</td>
+                                                <td>Tamat SLB B</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8.</td>
+                                                <td>Tamat SD sederajat</td>
+                                                <td>1045</td>
+                                            </tr>
+                                            <tr>
+                                                <td>9.</td>
+                                                <td>Tamat SMP/sederajat</td>
+                                                <td>392</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10.</td>
+                                                <td>Tamat SMA/sederajat</td>
+                                                <td>208</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11.</td>
+                                                <td>Tamat D-1/sederajat</td>
+                                                <td>7</td>
+                                            </tr>
+                                            <tr>
+                                                <td>12.</td>
+                                                <td>Tamat D-2/sederajat</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td>13.</td>
+                                                <td>Tamat D-3/sederajat</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td>14.</td>
+                                                <td>Tamat S-2/sederajat</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15.</td>
+                                                <td>Tamat S-3/sederajat</td>
+                                                <td>0</td>
+                                            </tr>
+                                    </table>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times"></i>Tutup</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 5 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">DATA KESEHATAN</h2>
+                                    <p class="item-intro text-muted">Desa Rukma Jaya</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/profil/kesehatan.jpg" alt="">
+                                    <p>Desa Rukma Jaya memiliki beberapa Sarana Kesehatan antara lain:<br></p>
+                                    <table style="width: 100%; height : 20px; padding: 10px">
+                                            <tr>
+                                                <th style="width: 10%">No</th>
+                                                <th style="width: 60%">Jenis Sarana</th>
+                                                <th style="width: 30%">Jumlah</th>
+                                            </tr> 
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Jumlah Dokter Praktik</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Dukun Pengobatan Alternatif</td>
+                                                <td>5</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Bidan</td>
+                                                <td>5</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td>Dukun Bersalin Terlatih</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.</td>
+                                                <td>Paramedis</td>
+                                                <td>6</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6.</td>
+                                                <td>Dokter Spesialis Lainnya</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>7.</td>
+                                                <td>Dokter Gigi</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8.</td>
+                                                <td>Dokter Umum</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>9.</td>
+                                                <td>Perawat</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10.</td>
+                                                <td>Sarana Kesehatan Lainnya</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11.</td>
+                                                <td>Laboratorium Kesehatan</td>
+                                                <td>0</td>
+                                            </tr>
+                                    </table>
+                                    <br><br>
+                                    <p>Desa Rukma Jaya memiliki beberapa Prasarana Kesehatan antara lain:<br></p>
+                                    <table style="width: 100%; height : 20px; padding: 10px">
+                                            <tr>
+                                                <th style="width: 10%">No</th>
+                                                <th style="width: 60%">Jenis Prasarana</th>
+                                                <th style="width: 30%">Jumlah</th>
+                                            </tr> 
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Posyandu</td>
+                                                <td>4</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Apotik</td>
+                                                <td>2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Puskesmas</td>
+                                                <td>2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td>Rumah/Kantor Praktik Dokter</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.</td>
+                                                <td>Poliklinik</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6.</td>
+                                                <td>Puskesmas Pembantu</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>7.</td>
+                                                <td>Toko Obat</td>
+                                                <td>2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8.</td>
+                                                <td>Rumah Sakit Umum</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>9.</td>
+                                                <td>Rumah Bersalin</td>
+                                                <td>0</td>
+                                            </tr>
+                                    </table>
+                                    <br><br>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times"></i>Tutup</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 6 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">MTA PENCAHARIAN</h2>
+                                    <p class="item-intro text-muted">Desa Rukma Jaya</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/profil/pekerjaan.png" alt="">
+                                    <p>Masyarakat Desa Rukma Jaya memiliki beberapa jenis mata pencaharian antara lain:<br></p>
+                                    <table style="width: 100%; height : 20px; padding: 10px">
+                                            <tr>
+                                                <th style="width: 10%">No</th>
+                                                <th style="width: 60%">Jenis Pekerjaan</th>
+                                                <th style="width: 30%">Laki-Laki</th>
+                                                <th style="width: 30%">Perempuan</th>
+                                                <th style="width: 30%">Total</th>
+                                            </tr> 
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Wartawan</td>
+                                                <td>1</td>
+                                                <td>0</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Tukang Jahit</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                                <td>5</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Karyawan Honorer</td>
+                                                <td>0</td>
+                                                <td>5</td>
+                                                <td>5</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td>Pelajar</td>
+                                                <td>510</td>
+                                                <td>512</td>
+                                                <td>1022</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.</td>
+                                                <td>Pengusaha Kecil, Menengahh, Besar</td>
+                                                <td>40</td>
+                                                <td>20</td>
+                                                <td>60</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6.</td>
+                                                <td>Perawat Swasta</td>
+                                                <td>1</td>
+                                                <td>1</td>
+                                                <td>2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>7.</td>
+                                                <td>Belum Bekerja</td>
+                                                <td>800</td>
+                                                <td>800</td>
+                                                <td>1600</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8.</td>
+                                                <td>Tukang Sumur</td>
+                                                <td>2</td>
+                                                <td>0</td>
+                                                <td>2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>9.</td>
+                                                <td>Pilot</td>
+                                                <td>1</td>
+                                                <td>0</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10.</td>
+                                                <td>Pedagang Keliling</td>
+                                                <td>7</td>
+                                                <td>10</td>
+                                                <td>17</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11.</td>
+                                                <td>Montir</td>
+                                                <td>15</td>
+                                                <td>0</td>
+                                                <td>15</td>
+                                            </tr>
+                                            <tr>
+                                                <td>12</td>
+                                                <td>Pemuka Agama</td>
+                                                <td>20</td>
+                                                <td>0</td>
+                                                <td>20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>13.</td>
+                                                <td>Pengacara</td>
+                                                <td>1</td>
+                                                <td>0</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>14.</td>
+                                                <td>POLRI</td>
+                                                <td>9</td>
+                                                <td>0</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15.</td>
+                                                <td>Pensiunan</td>
+                                                <td>10</td>
+                                                <td>3</td>
+                                                <td>13</td>
+                                            </tr>
+                                    </table>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times"></i>Tutup</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 7 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Struktur Organisasi PKK</h2>
+                                    <p class="item-intro text-muted">Desa Rukma Jaya</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/struktur_pkk.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 8 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Struktur Organisasi BPD</h2>
+                                    <p class="item-intro text-muted">Desa Rukma Jaya</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/b.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 9 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Struktur Organisasi LPM</h2>
+                                    <p class="item-intro text-muted">Desa Rukma Jaya</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/l.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Contact form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/agency.min.js"></script>
+    </body>
+</html>
